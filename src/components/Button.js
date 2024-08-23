@@ -1,11 +1,15 @@
 import React from "react";
 
-function Button({ children }) {
-  return (
-    <button class="btn primary-text-color secondary-bg-color">
-      {children}
-    </button>
-  );
+function Button({ children, type }) {
+  let style = "primary-text-color secondary-bg-color";
+  if (type === "secondary") {
+    style = "primary-bg-color terciary-text-color";
+  }
+  if (type === "outline") {
+    style = "full-width";
+  }
+
+  return <button class={`btn ${style}`}>{children}</button>;
 }
 
 export default Button;

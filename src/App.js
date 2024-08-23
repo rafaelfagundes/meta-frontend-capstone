@@ -1,6 +1,7 @@
 import "./App.css";
 import Hero from "./Hero";
 import NavBar from "./NavBar";
+import Specials from "./Specials";
 
 function App() {
   return (
@@ -10,63 +11,15 @@ function App() {
 
         <Hero></Hero>
 
-        <section class="specials">
-          <div class="container">
-            <h2>Specials</h2>
-            <div class="grid">
-              <div class="card">
-                <img src="greek-salad.jpg" alt="Greek Salad"></img>
-                <h3>
-                  Greek Salad <span>$12.99</span>
-                </h3>
-                <p>
-                  The famous greek salad of crispy lettuce, peppers, olives and
-                  our Chicago style feta cheese, garnished with crunchy garlic
-                  and rosemary croutons.
-                </p>
-                <button class="btn">
-                  Order <img src="bike.svg" alt="Bike Delivery"></img>
-                </button>
-              </div>
-              <div class="card">
-                <img src="bruschetta.jpg" alt="Bruschetta"></img>
-                <h3>
-                  Bruschetta <span>$5.99</span>
-                </h3>
-                <p>
-                  Our Bruschetta is made from grilled bread that has been
-                  smeared with garlic and seasoned with salt and olive oil.
-                </p>
-                <button class="btn">
-                  Order <img src="bike.svg" alt="Bike Delivery"></img>
-                </button>
-              </div>
-              <div class="card">
-                <img src="lemon-dessert.jpg" alt="Lemon Dessert"></img>
-                <h3>
-                  Lemon Dessert <span>$4.99</span>
-                </h3>
-                <p>
-                  This comes straight from grandma's recipe book, every last
-                  ingredient has been sourced and is as authentic as can be
-                  imagined.
-                </p>
-                <button class="btn">
-                  Order <img src="bike.svg" alt="Bike Delivery"></img>
-                </button>
-              </div>
-            </div>
-            <button class="btn center">Online Menu</button>
-          </div>
-        </section>
+        <Specials></Specials>
 
-        <section class="testimonials">
-          <div class="container">
+        <section className="testimonials">
+          <div className="container">
             <h2>Testimonials</h2>
-            <div class="grid">
-              <div class="testimonial">
+            <div className="grid">
+              <div className="testimonial">
                 <img src="person1.jpg" alt="Samantha Adams"></img>
-                <div class="rating">
+                <div className="rating">
                   <img src="star.svg" alt="Star"></img>
                   <img src="star.svg" alt="Star"></img>
                   <img src="star.svg" alt="Star"></img>
@@ -82,9 +35,9 @@ function App() {
                   in their fresh offerings again!
                 </p>
               </div>
-              <div class="testimonial">
+              <div className="testimonial">
                 <img src="person2.jpg" alt="Emily Hayes"></img>
-                <div class="rating">
+                <div className="rating">
                   <img src="star.svg" alt="Star"></img>
                   <img src="star.svg" alt="Star"></img>
                   <img src="star.svg" alt="Star"></img>
@@ -100,9 +53,9 @@ function App() {
                   recommend stopping by for a meal.
                 </p>
               </div>
-              <div class="testimonial">
+              <div className="testimonial">
                 <img src="person3.jpg" alt="George Adams"></img>
-                <div class="rating">
+                <div className="rating">
                   <img src="star.svg" alt="Star"></img>
                   <img src="star.svg" alt="Star"></img>
                   <img src="star.svg" alt="Star"></img>
@@ -122,8 +75,8 @@ function App() {
           </div>
         </section>
 
-        <section class="about">
-          <div class="container">
+        <section className="about">
+          <div className="container">
             <h2>Little Lemon</h2>
             <h2>Chicago</h2>
             <p>
@@ -141,18 +94,18 @@ function App() {
               thoughtfully prepared.
             </p>
           </div>
-          <div class="images">
+          <div className="images">
             <img src="kitchen1.jpg" alt="Kitchen"></img>
             <img src="kitchen2.jpg" alt="Kitchen"></img>
           </div>
         </section>
 
         <footer>
-          <div class="container">
-            <div class="logo">
+          <div className="container">
+            <div className="logo">
               <img src="logo.svg" alt="Little Lemon Logo"></img>
             </div>
-            <div class="navigation">
+            <div className="navigation">
               <h3>Navigation</h3>
               <ul>
                 <li>
@@ -169,13 +122,13 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div class="contact">
+            <div className="contact">
               <h3>Contact</h3>
               <p>12345, Citrus Avenue Chicago, IL 60611</p>
               <p>contact@littlelemonchicago.com</p>
               <p>(312) 555-7890</p>
             </div>
-            <div class="social-media">
+            <div className="social-media">
               <h3>Social Media</h3>
               <ul>
                 <li>
@@ -201,7 +154,7 @@ function App() {
               </ul>
             </div>
           </div>
-          <p class="copyright">© 2024. All rights reserved.</p>
+          <p className="copyright">© 2024. All rights reserved.</p>
         </footer>
       </body>
     </div>

@@ -3,19 +3,19 @@ import Button from "./components/Button";
 
 function Hero() {
   return (
-    <section class="hero" id="home">
-      <div class="container space-between full-width">
-        <div class="hero-content">
+    <section className="hero" id="home">
+      <div className="container space-between full-width">
+        <div className="hero-content">
           <div>
             <h1 className="serif secondary-text-color">Little Lemon</h1>
             <h2>Chicago</h2>
           </div>
-          <p class="description">
+          <p className="description">
             A cozy spot serving fresh and flavourful dishes made with care
           </p>
           <Button>Reserve a Table</Button>
         </div>
-        <div class="hero-image">
+        <div className="hero-image">
           <img src="img/hero-picture.png" alt="Hero Background"></img>
         </div>
       </div>
