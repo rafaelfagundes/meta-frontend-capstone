@@ -31,7 +31,7 @@ const specialsData = [
 
 function Specials() {
   return (
-    <section className="specials">
+    <section className="specials" id="menu">
       <div className="container">
         <div className="row space-between specials-header">
           <h2 className="serif primary-text-color">Specials</h2>
@@ -46,7 +46,7 @@ function Specials() {
                 alt={special.alt}
               ></img>
               <div className="row space-between">
-                <h3>{special.name}</h3>
+                <h3 className="serif primary-text-color">{special.name}</h3>
                 <span className="terciary-text-color price">
                   {special.price}
                 </span>
