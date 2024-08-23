@@ -1,6 +1,6 @@
 import React from "react";
-import AddToOrderButton from "./components/AddToOrderButton";
-import Button from "./components/Button";
+import AddToOrderButton from "../components/AddToOrderButton";
+import Button from "../components/Button";
 
 const specialsData = [
   {

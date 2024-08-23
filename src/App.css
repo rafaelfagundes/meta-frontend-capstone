@@ -161,6 +161,10 @@ header nav li {
   margin-left: 30px;
 }
 
+header nav li a:hover {
+  color: #ee9972;
+}
+
 header .cart img {
   margin-top: 4px;
 }

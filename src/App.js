@@ -1,10 +1,10 @@
-import About from "./About";
 import "./App.css";
-import Footer from "./Footer";
-import Hero from "./Hero";
-import NavBar from "./NavBar";
-import Specials from "./Specials";
-import Testimonials from "./Testimonials";
+import About from "./sections/About";
+import Footer from "./sections/Footer";
+import Hero from "./sections/Hero";
+import NavBar from "./sections/NavBar";
+import Specials from "./sections/Specials";
+import Testimonials from "./sections/Testimonials";
 
 function App() {
   return (
