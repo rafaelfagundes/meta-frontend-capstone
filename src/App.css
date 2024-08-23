@@ -335,12 +335,12 @@ header .cart img {
 
 .about p {
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   padding-right: 20px;
 }
 
 .about img {
-  height: 440px;
+  height: 500px;
   object-fit: cover;
   border-radius: 10px;
   margin-right: -40px;
@@ -360,21 +360,32 @@ footer .container {
   flex-wrap: wrap;
 }
 
+footer .footer-links {
+  display: flex;
+  gap: 40px;
+}
+
 footer .logo {
   margin-bottom: 20px;
+  width: 200px;
+  margin-right: 40px;
 }
 
 footer h3 {
-  font-size: 1.4rem;
-  margin-bottom: 15px;
+  font-size: 1.8rem;
 }
 
 footer ul {
   list-style: none;
 }
 
-footer li {
+footer li a {
   margin-bottom: 10px;
+  color: #ee9972;
+}
+
+footer li a:hover {
+  color: #f4ce14;
 }
 
 footer .social-media ul {
@@ -385,8 +396,12 @@ footer .social-media li {
   margin-right: 20px;
 }
 
+footer .footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .copyright {
-  text-align: center;
   margin-top: 40px;
   font-size: 0.9rem;
 }
