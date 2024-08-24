@@ -65,6 +65,28 @@ root {
   height: 24px;
 }
 
+.center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.space-40 {
+  margin-top: 40px;
+}
+
+.error {
+  background-color: #ee9972;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 body {
   font-family: "Karla", sans-serif;
   color: #333;
@@ -408,4 +430,39 @@ footer .footer-row {
 .copyright {
   margin-top: 40px;
   font-size: 0.9rem;
+}
+
+.reservation {
+  padding: 80px 0;
+}
+
+.reservation input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.reservation h1 {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  margin: 0 0 40px 0;
+}
+
+.reservation h2 {
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin: 0 0 40px 0;
+  color: #3eb747;
+}
+
+.reservation h3 {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.reservation p {
+  font-size: 1.3rem;
+  line-height: 2rem;
 }

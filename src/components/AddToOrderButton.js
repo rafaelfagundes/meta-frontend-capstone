@@ -5,7 +5,7 @@ function AddToOrderButton() {
   return (
     <Button type="outline">
       <span>Order</span>
-      <img src="/img/bike.svg" alt="Bike Delivery" class="icon"></img>
+      <img src="/img/bike.svg" alt="Bike Delivery" className="icon"></img>
     </Button>
   );
 }

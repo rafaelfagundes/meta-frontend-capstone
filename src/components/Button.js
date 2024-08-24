@@ -1,6 +1,6 @@
 import React from "react";
 
-function Button({ children, type }) {
+function Button({ children, type, className }) {
   let style = "primary-text-color secondary-bg-color";
   if (type === "secondary") {
     style = "primary-bg-color white-text-color";
@@ -9,7 +9,14 @@ function Button({ children, type }) {
     style = "full-width";
   }
 
-  return <button class={`btn ${style}`}>{children}</button>;
+  return (
+    <button
+      type={type === "submit" ? "submit" : "button"}
+      className={`btn ${style} ${className}`}
+    >
+      {children}
+    </button>
+  );
 }
 
 export default Button;

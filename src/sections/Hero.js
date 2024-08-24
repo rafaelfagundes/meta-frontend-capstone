@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "../components/Button";
 
 function Hero() {
@@ -13,7 +14,9 @@ function Hero() {
           <p className="description">
             A cozy spot serving fresh and flavourful dishes made with care
           </p>
-          <Button>Reserve a Table</Button>
+          <Link to="/reservation">
+            <Button>Reserve a Table</Button>
+          </Link>
         </div>
         <div className="hero-image">
           <img src="img/hero-picture.png" alt="Hero Background"></img>

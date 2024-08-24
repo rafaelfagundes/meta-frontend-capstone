@@ -39,9 +39,9 @@ function Specials() {
         </div>
         <div className="grid">
           {specialsData.map((special) => (
-            <div className="card border-radius">
+            <div className="card border-radius" key={special.name}>
               <img
-                class="card-image"
+                className="card-image"
                 src={special.image}
                 alt={special.alt}
               ></img>
